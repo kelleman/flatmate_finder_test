@@ -26,7 +26,7 @@ Other Tools
  ## Setup Instructions
 
 1. Clone the repository 
-- git clone https://github.com/kelleman/flatmate_finder.git
+- git clone https://github.com/kelleman/flatmate_finder_test.git
 - cd flatmate_finder
 
 2. Install Backend Dependencies
@@ -67,3 +67,4 @@ Tradeoffs made due to time constraints:
 - Add user authentication (login/signup) with JWT or session management.
 - Make the design fully responsive and mobile-friendly.
 - Add testing (unit & integration) for API endpoints and frontend components.
+- Add pagination
