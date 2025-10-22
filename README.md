@@ -52,9 +52,14 @@ Other Tools
 7. Open your browser at http://localhost:5173
 
 ## LinkedIn Image Handling
-For profile images, the application currently does not fetch real LinkedIn images due to API access restrictions. Instead, a placeholder image is used for each profile.
 
-If more time or API access were available, LinkedIn OAuth and profile picture endpoints could be integrated for real images.
+The backend simulates fetching a profile image using the following approach:
+
+- When a LinkedIn URL is provided for a profile, the backend calls the `fetchLinkedinImage` function.
+- This function makes a request to [Random User API](https://randomuser.me/) to obtain a random user image.
+- The returned 'large' image URL from the API is used as the profile's 'imageUrl'.
+- If the API request fails, a fallback placeholder image from [UI Avatars](https://ui-avatars.com/) is used.
+
 
 ## Tradeoffs & Next Steps
 Tradeoffs made due to time constraints:
