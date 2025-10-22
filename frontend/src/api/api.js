@@ -1,4 +1,4 @@
-const API_BASE_URL = "https://flatmate-finder-test.vercel.app/api";
+const API_BASE_URL = "http://localhost:5000/api";
 
 export async function getData(endpoint) {
   const res = await fetch(`${API_BASE_URL}${endpoint}`);

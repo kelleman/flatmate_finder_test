@@ -30,7 +30,7 @@ Other Tools
 - cd flatmate_finder
 
 2. Install Backend Dependencies
-- cd flatmate_finder_test
+- cd flatmate_finder_test/backend
 - npm install
 
 3. Install frontend dependencies
@@ -43,6 +43,7 @@ Other Tools
 - PORT=5000
 
 5. Run the backend
+- cd backend
 - npm start
 
 6. Run the frontend
