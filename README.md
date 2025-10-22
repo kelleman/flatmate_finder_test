@@ -39,7 +39,8 @@ Other Tools
 - npm install
 
 4. Configure environment variables
-- MONGO_URI=your_mongodb_connection_string
+- MONGO_URI=mongodb+srv://kellemanatser:12345@tasks.s00r2kg.mongodb.net/?retryWrites=true&w=majority&appName=tasks
+
 - PORT=5000
 
 5. Run the backend
